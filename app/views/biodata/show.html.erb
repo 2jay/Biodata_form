@@ -1,0 +1,27 @@
+<p>
+  <strong>Title:</strong>
+  <%= @biodata.title %>
+</p>
+ 
+ <p>
+  <strong>First Name:</strong>
+  <%= @biodata.first_name %>
+</p>
+ 
+<p>
+  <strong>Last Name:</strong>
+  <%= @biodata.last_name %>
+</p>
+
+<p>
+  <strong>Date of Birth:</strong>
+  <%= @biodata.date_of_birth %>
+</p>
+
+<p>
+  <strong>About:</strong>
+  <%= @biodata.about %>
+</p>
+
+<%= link_to 'Edit', edit_biodata_path(@biodata) %> |
+<%= link_to 'Back', biodata_path %>
